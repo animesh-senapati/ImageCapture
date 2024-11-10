@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this,ImageCaptureActivity.class));
-                Toast.makeText(MainActivity.this, "Moving to new Activity", Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(MainActivity.this, "Moving to new Activity", Toast.LENGTH_SHORT).show();
             }
         });
 
